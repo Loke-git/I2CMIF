@@ -10,7 +10,7 @@
    <publicationStmt>
     <publisher><ref target="https://www.ibsen.uio.no/">Senter for Ibsen-studier</ref></publisher>
     <idno type="url">https://www.ibsen.uio.no/HVOR_LIGGER_FILEN</idno>
-    <date when="2022-12-22"/>
+    <date when="2023-01-09"/>
     <availability>
      <licence target="https://creativecommons.org/licenses/by/4.0/">This file is licensed under the terms of the Creative-Commons-License CC-BY 4.0</licence>
     </availability>
@@ -124,7 +124,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3155041">GRIMSTAD</placeName>
-     <date when="1850-12-25"/>
+     <date notAfter="1851-01-31" notBefore="1850-12-25"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peCE.xhtml">CLARA EBBELL</persName>
@@ -494,7 +494,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1858-06-12"/>
+     <date notAfter="1858-06-16" notBefore="1858-06-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peJCG.xhtml">JOACHIM GAMBORG</persName>
@@ -504,7 +504,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3161732">BERGEN</placeName>
-     <date when="1856"/>
+     <date notAfter="1858" notBefore="1856"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peJCDa.xhtml">JOHAN CHRISTIAN DAHL</persName>
@@ -674,7 +674,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1860-09-26"/>
+     <date notAfter="1860-09-30" notBefore="1860-09-26"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peJCG.xhtml">JOACHIM GAMBORG</persName>
@@ -1204,7 +1204,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3169070">ROMA</placeName>
-     <date when="1866-05-04"/>
+     <date notAfter="1866-05-05" notBefore="1866-05-04"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peMB.xhtml">MICHAEL BIRKELAND</persName>
@@ -1324,7 +1324,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3176589">FRASCATI</placeName>
-     <date when="1866-08-22"/>
+     <date notAfter="1866-08-24" notBefore="1866-08-22"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peFH.xhtml">FREDERIK HEGEL</persName>
@@ -1614,7 +1614,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3169070">ROMA</placeName>
-     <date when="1867-12-09"/>
+     <date notAfter="1867-12-10" notBefore="1867-12-09"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peBB.xhtml">BJØRNSTJERNE BJØRNSON</persName>
@@ -1794,7 +1794,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3169070">ROMA</placeName>
-     <date when="1866"/>
+     <date notAfter="1868-04" notBefore="1866"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNR.xhtml">NIELS RAVNKILDE</persName>
@@ -2464,7 +2464,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2935022">DRESDEN</placeName>
-     <date when="1870-05-12"/>
+     <date notAfter="1870-05-20" notBefore="1870-05-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peJPA.xhtml">JENS PETER ANDRESEN</persName>
@@ -2494,7 +2494,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2935022">DRESDEN</placeName>
-     <date when="1870-06-04"/>
+     <date notAfter="1870-06-05" notBefore="1870-06-04"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peMT.xhtml">MAGDALENE THORESEN</persName>
@@ -3394,7 +3394,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3169070">ROMA</placeName>
-     <date when="1871"/>
+     <date notAfter="1872" notBefore="1871"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peSA.xhtml">SOPHIE ADLERSPARRE</persName>
@@ -4704,7 +4704,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2935022">DRESDEN</placeName>
-     <date when="1874-11"/>
+     <date notAfter="1875-01" notBefore="1874-11"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -4774,7 +4774,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2935022">DRESDEN</placeName>
-     <date when="1874-11"/>
+     <date notAfter="1875-01" notBefore="1874-11"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peMG.xhtml">MARCUS GRØNVOLD</persName>
@@ -5964,7 +5964,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2867714">MÜNCHEN</placeName>
-     <date when="1875"/>
+     <date notAfter="1876" notBefore="1875"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -5984,7 +5984,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2867714">MÜNCHEN</placeName>
-     <date when="1876"/>
+     <date notAfter="1877" notBefore="1876"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peLD.xhtml">LORENTZ DIETRICHSON</persName>
@@ -6694,7 +6694,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2867714">MÜNCHEN</placeName>
-     <date when="1876"/>
+     <date notAfter="1877" notBefore="1876"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peFGran.xhtml">FRANZ GRANDAUR</persName>
@@ -6994,7 +6994,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2867714">MÜNCHEN</placeName>
-     <date when="1875"/>
+     <date notAfter="1878-08" notBefore="1875"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peFGr.xhtml">[FREDERIKKE GRAM]</persName>
@@ -7204,7 +7204,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3169070">ROMA</placeName>
-     <date when="1878-10"/>
+     <date notAfter="1879-02" notBefore="1878-10"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peCA.xhtml">CECILIE ABRAHAMS</persName>
@@ -9823,7 +9823,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3178386">GOSSENSASS</placeName>
-     <date when="1884-08-09"/>
+     <date notAfter="1884-08-10" notBefore="1884-08-09"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peSiI.xhtml">SIGURD IBSEN</persName>
@@ -12513,7 +12513,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/2867714">MÜNCHEN</placeName>
-     <date when="1888-12-22"/>
+     <date notAfter="1889-01-02" notBefore="1888-12-22"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peCLD.xhtml">CHRISTOPHER DUE</persName>
@@ -15582,7 +15582,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1891-12"/>
+     <date notAfter="1892-03" notBefore="1891-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHA.xhtml">HILDUR ANDERSEN</persName>
@@ -15592,7 +15592,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1891-12"/>
+     <date notAfter="1892-03" notBefore="1891-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peWS.xhtml">WILHELMINE SCHØNBERG</persName>
@@ -15602,7 +15602,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1891-12"/>
+     <date notAfter="1892-03" notBefore="1891-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peOT.xhtml">OLA THOMMESSEN</persName>
@@ -16462,7 +16462,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1892-07"/>
+     <date notAfter="1893-04" notBefore="1892-07"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -17552,7 +17552,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1893"/>
+     <date notAfter="1894-12" notBefore="1893"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -19612,7 +19612,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1896"/>
+     <date notAfter="1898" notBefore="1896"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -20932,7 +20932,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1899-12"/>
+     <date notAfter="1900-01" notBefore="1899-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peLD.xhtml">LORENTZ DIETRICHSON</persName>
@@ -20942,7 +20942,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1899-12"/>
+     <date notAfter="1900-01" notBefore="1899-12"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peIAa.xhtml">INGEBORG BJØRNSON</persName>
@@ -21072,7 +21072,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1899-04"/>
+     <date notAfter="1900-01" notBefore="1899-04"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21662,7 +21662,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1901-01" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peIAa.xhtml">INGEBORG BJØRNSON</persName>
@@ -21672,7 +21672,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1901-01" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21682,7 +21682,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1901-01" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21832,7 +21832,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1905" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peBBj peIAa.xhtml">BJØRN OG INGEBORG BJØRNSON</persName>
@@ -21842,7 +21842,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1905" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peLD.xhtml">LORENTZ DIETRICHSON</persName>
@@ -21852,7 +21852,7 @@
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
      <placeName ref="http://www.geonames.org/3143244">KRISTIANIA</placeName>
-     <date when="1900"/>
+     <date notAfter="1905" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peGET.xhtml">GUSTAV THOMASSEN</persName>
@@ -21861,7 +21861,7 @@
    <correspDesc key="BudatWA" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatWA.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peWA.xhtml">WILLIAM ARCHER</persName>
@@ -21870,7 +21870,7 @@
    <correspDesc key="BudatNN_forstnevnte" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatNN_forstnevnte.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21879,7 +21879,7 @@
    <correspDesc key="BudatNN_Deres_virksomhed" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatNN_Deres_virksomhed.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21888,7 +21888,7 @@
    <correspDesc key="BudatCBH" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatCBH.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peCBH.xhtml">LINA HASSELMANN</persName>
@@ -21897,7 +21897,7 @@
    <correspDesc key="BudatNN_Hjerteligste" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatNN_Hjerteligste.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>
@@ -21906,7 +21906,7 @@
    <correspDesc key="BudatNN_Med_udtrykket" ref="https://www.ibsen.uio.no/BREV_1890-1905ht|BudatNN_Med_udtrykket.xhtml" source="#ls582794c-7ba2-11ed-a1eb-0242ac120002HTV">
     <correspAction type="sent">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peHI.xhtml">HENRIK IBSEN</persName>
-     <date when="1900"/>
+     <date notAfter="1905-12-31" notBefore="1900"/>
     </correspAction>
     <correspAction type="received">
      <persName ref="https://www.ibsen.uio.no/REGINFO_peNN.xhtml">UNKNOWN RECIPIENT</persName>

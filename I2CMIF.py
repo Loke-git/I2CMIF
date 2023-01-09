@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
+# version: 1.1.3
+# by Loke Sjølie
+# project uses code from Munch XML Muncher with permission
 print("Initializing...")
 import sys
 import subprocess
@@ -113,11 +116,21 @@ for xml_file in listXMLfiles:
             docLoc = "UKJENT OPPRINNELSESSTED"
             placeID = "plNN"
         printString+=", "+docType+" from "+docLoc
-        
-        
-        dateObj = document.find("origDate")
 
-        date = list(dateObj.attrs.values())[0]
+        isDocumentFromTo = document.find("origDate", {"notBefore":True}) # Does the date element have a not before assignment? 
+        if isDocumentFromTo: # If it does, and thus has a range
+            doesDocumentHaveToDate = document.find("origDate", {"notAfter":True})
+            if doesDocumentHaveToDate:
+                # Both from and to attributes are present.
+                fromDate = isDocumentFromTo['notBefore'] # Extract 'from' date. 
+                toDate = isDocumentFromTo['notAfter'] # Extract 'to' date.
+                date = str(fromDate)+"%"+str(toDate)
+            else:
+                # If the 'from' attribute is present without the 'to', it's interpreted as "not before this date". This is unlikely in Ibsen files; here as an in-case.
+                date = isDocumentFromTo['notBefore']
+        else:
+            dateObj = document.find("origDate")
+            date = list(dateObj.attrs.values())[0]
         printString+=" dated: "+date
         printString+="\n"
         senders = document.find("name",{"role":"sender"}).findChildren(True, recursive=True)
@@ -266,8 +279,13 @@ for idx,row in df1.iterrows():
     # End place encoding
     # Date encoding
     if date != "N/A":
-        dateSentElement = CMIF.new_tag("date", attrs={"when":date})
-        correspActionElement.append(dateSentElement)
+        if "%" in str(date): # If this is a "split" (uncertain) date:
+            dateObject = date.split("%")
+            dateSentElement = CMIF.new_tag("date", attrs={"notBefore":dateObject[0], "notAfter":dateObject[1]}) # Construct element with notbefore and notafter attributes
+            correspActionElement.append(dateSentElement)
+        else: # If this is a simple date:
+            dateSentElement = CMIF.new_tag("date", attrs={"when":date})
+            correspActionElement.append(dateSentElement)
     # End date encoding
     # End author (sender) encoding
     
@@ -369,8 +387,13 @@ if os.path.exists("varia_file.csv"):
         # End place encoding
         # Date encoding
         if date != "N/A":
-            dateSentElement = CMIF.new_tag("date", attrs={"when":date})
-            correspActionElement.append(dateSentElement)
+            if "%" in str(date): # If this is a "split" (uncertain) date:
+                dateObject = date.split("%")
+                dateSentElement = CMIF.new_tag("date", attrs={"notBefore":dateObject[0], "notAfter":dateObject[1]}) # Construct element with notbefore and notafter attributes
+                correspActionElement.append(dateSentElement)
+            else: # If this is a simple date:
+                dateSentElement = CMIF.new_tag("date", attrs={"when":date})
+                correspActionElement.append(dateSentElement)
         # End date encoding
         # End author (sender) encoding
 

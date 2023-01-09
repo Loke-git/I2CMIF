@@ -1,6 +1,11 @@
 # I2CMIF
 ## Changelog
-### 1.1.2 (current)
+### 1.1.3 (current)
+1. Restored functionality for notBefore and notAfter dates, visible in (among others) object BudatSA, for both outputs.
+
+Note: Date spans are noted as DATE1%DATE2 in the JSON/CSV files (%-sep).
+
+### 1.1.2
 1. Output is now sent for another pass to remove linebreaks within tags.
 2. Output source UUID is now prefixed with #.
    
