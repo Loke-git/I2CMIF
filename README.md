@@ -1,6 +1,9 @@
 # I2CMIF
 ## Changelog
-### 1.1.3 (current)
+### PATCH 1.1.3.5 (current)
+1. Script now applies known VIAF URLs to senders and recipients.
+
+### 1.1.3
 1. Restored functionality for notBefore and notAfter dates, visible in (among others) object BudatSA, for both outputs.
 
 Note: Date spans are noted as DATE1%DATE2 in the JSON/CSV files (%-sep).
