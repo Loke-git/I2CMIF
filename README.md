@@ -1,6 +1,9 @@
 # I2CMIF
 ## Changelog
-### PATCH 1.1.3.5 (current)
+### PATCH 1.1.3.6 (current)
+1. Script now ACTUALLY applies known VIAF URLs to senders and recipients.
+
+### PATCH 1.1.3.5
 1. Script now applies known VIAF URLs to senders and recipients.
 
 ### 1.1.3

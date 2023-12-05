@@ -245,14 +245,14 @@ print("Applying February 2023 patch...")
 df_People = pd.read_csv("Person_Register_Info.csv", sep=",")
 df_People = df_People.fillna("N/A")
 peopleVIAFdict = defaultdict(dict)
-
+#print(df_People.head(10))
 for idx,row in df_People.iterrows():
     viafID = row['Viaf_ID']
     xmlID = row['XML_ID']
     if viafID != "N/A":
         viafURL = "https://viaf.org/viaf/"+viafID
         peopleVIAFdict[xmlID] = viafURL
-
+        #print(f"{xmlID}{viafURL}")
 
 for idx,row in df1.iterrows():
     document,date,fromX,to,place,placeRef,source = row['document'],row['date'],row['fromX'],row['to'],row['place'],row['placeRef'],row['source']
@@ -315,27 +315,28 @@ for idx,row in df1.iterrows():
         correspActionElement = CMIF.new_tag("correspAction", attrs={'type':'received'})
         correspDescElement.append(correspActionElement)
         category = df1.iloc[idx]["toType"][i]
-        ttX = df1.iloc[idx]["fromRef"][i]
-        if ttX in peopleVIAFdict:
-            ref = peopleVIAFdict[ttX]
-        else:
-            ref = str("https://www.ibsen.uio.no/REGINFO_")+str(df1.iloc[idx]["toRef"][i])+str(".xhtml")
-        #ref = df1.iloc[idx]["toRef"][i]
+        ttX = df1.iloc[idx]["toRef"][i]
         if each == "UKJENT MOTTAGER":
             each = "UNKNOWN RECIPIENT"
-        if category == "org":
-            if ref != "N/A":
-                persNameElement = CMIF.new_tag("orgName", attrs={"ref":ref})
-            else:
-                persNameElement = CMIF.new_tag("orgName")
+        
+        if ttX in peopleVIAFdict:
+            ref = peopleVIAFdict[ttX]
+            #print(f"Variable {ttX} found: {ref}")
         else:
-            if ref != "N/A":
-                persNameElement = CMIF.new_tag("persName", attrs={"ref":ref})
-            else:
-                persNameElement = CMIF.new_tag("persName")
+            ref = str("https://www.ibsen.uio.no/REGINFO_")+str(df1.iloc[idx]["toRef"][i])+str(".xhtml")
+            #print(f"WARNING Variable {ttX} NOT found: {ref}")
+        
+        if category == "org":
+            persNameElement = CMIF.new_tag("orgName")
+        else:
+            persNameElement = CMIF.new_tag("persName")
+        if ref != "N/A":
+            persNameElement.attrs['ref'] = ref
+        #print(f"ttX: {ttX} :: {ref}")
         i+=1
         persNameElement.string = str(each)
         correspActionElement.append(persNameElement)
+        
 
     # End recipient encoding
 
@@ -431,7 +432,7 @@ if os.path.exists("varia_file.csv"):
             correspActionElement = CMIF.new_tag("correspAction", attrs={'type':'received'})
             correspDescElement.append(correspActionElement)
             category = df3.iloc[idx]["toType"][i]
-            ttX = df3.iloc[idx]["fromRef"][i]
+            ttX = df3.iloc[idx]["toRef"][i]
             if ttX in peopleVIAFdict:
                 ref = peopleVIAFdict[ttX]
             else:
@@ -440,15 +441,11 @@ if os.path.exists("varia_file.csv"):
             if each == "UKJENT MOTTAGER":
                 each = "UNKNOWN RECIPIENT"
             if category == "org":
-                if ref != "N/A":
-                    persNameElement = CMIF.new_tag("orgName", attrs={"ref":ref})
-                else:
-                    persNameElement = CMIF.new_tag("orgName")
+                persNameElement = CMIF.new_tag("orgName")
             else:
-                if ref != "N/A":
-                    persNameElement = CMIF.new_tag("persName", attrs={"ref":ref})
-                else:
-                    persNameElement = CMIF.new_tag("persName")
+                persNameElement = CMIF.new_tag("persName")
+            if ref != "N/A":
+                persNameElement.attrs['ref'] = ref
             i+=1
             persNameElement.string = str(each)
             correspActionElement.append(persNameElement)
